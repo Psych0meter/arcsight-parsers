@@ -1,0 +1,21 @@
+trigger.node.location=/UserData
+event.deviceVendor=__getVendor("Microsoft")
+event.deviceProduct=__getVendor("Terminal Services")
+additionaldata.enabled=true
+
+token.count=3
+token[0].name=User
+token[0].location=EventXML/Param1
+token[0].type=String
+
+token[1].name=Domain
+token[1].location=EventXML/Param2
+token[1].type=String
+
+token[2].name=Address
+token[2].location=EventXML/Param3
+token[2].type=IPAddress
+
+event.destinationUserName=User
+event.destinationNtDomain=Domain
+event.destinationAddress=Address
