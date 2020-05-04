@@ -9,7 +9,9 @@ Copy flexagent directory in $ARCSIGHT_HOME$/current/user/agent/
 Restart SmartConnector
 
 ## Log example
+```
 24,03/06/20,00:00:45,Database Cleanup Begin,,,,,0,6,,,,,,,,,
+```
 
 ## Documentation
 
