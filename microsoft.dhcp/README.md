@@ -14,9 +14,12 @@ Restart SmartConnector
 ## Documentation
 
 ### Log format
+```
 ID,Date,Time,Description,IP Address,Host Name,MAC Address,User Name, TransactionID, QResult,Probationtime, CorrelationID,Dhcid,VendorClass(Hex),VendorClass(ASCII),UserClass(Hex),UserClass(ASCII),RelayAgentInformation,DnsRegError.
+```
 
 ### ID
+```
 00	The log was started.
 01	The log was stopped.
 02	The log was temporarily paused due to low disk space.
@@ -43,11 +46,13 @@ ID,Date,Time,Description,IP Address,Host Name,MAC Address,User Name, Transaction
 35	DNS update request failed.
 36	Packet dropped because the server is in failover standby role or the hash of the client ID does not match.
 50+	Codes above 50 are used for Rogue Server Detection information.
+```
 
 ### QResult
+```
 0  NoQuarantine
 1  Quarantine
 2  Drop Packet
 3  Probation
 6  No Quarantine Information 
-
+```
