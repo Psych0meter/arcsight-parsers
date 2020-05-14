@@ -1,5 +1,5 @@
 # Microsoft Windows Terminalservices Rmoteconnectionmanager Operational parser
-For syslog SmartConnector
+For fcp SmartConnector
 
 ## Installation
 Copy fcp directory in $ARCSIGHT_HOME$/current/user/agent/
