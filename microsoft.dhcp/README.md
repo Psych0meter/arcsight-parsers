@@ -2,9 +2,7 @@
 For directory reader SmartConnector
 
 ## Installation
-Configuration folder : EnterpriseVaultAudit
-
-Copy flexagent directory in $ARCSIGHT_HOME$/current/user/agent/
+Copy flexagent directory in $ARCSIGHT_HOME$/current/user/agent/flexagent
 
 Restart SmartConnector
 
