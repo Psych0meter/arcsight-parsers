@@ -1,4 +1,4 @@
-# Microsoft Windows Terminalservices Rmoteconnectionmanager Operational parser
+# Microsoft Windows Terminalservices Remoteconnectionmanager Operational parser
 For fcp SmartConnector
 
 ## Installation
